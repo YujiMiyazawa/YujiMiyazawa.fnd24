@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>Exel行挿入ツール</title>
+</head>
+
+<body>
+  <div>
+    <h1>&nbsp;Exel行挿入ツール</h1>
+    <h2>Exelの行を挿入するWebツールです。<br>
+      入力されたデータは保存されませんので安心して入力いただけます。
+    </h2>
+  </div>
+
+  <div class="main">
+    <div id="input">
+      <div id="input1">
+        <p>列１</p>
+        <textarea id="inputArea1" cols="40" rows="5">ここにペーストしてください</textarea>
+        <table id="inTable1"></table>
+      </div>
+      <div id="input2">
+        <p>列２</p>
+        <textarea id="inputArea2" cols="40" rows="5">ここにペーストしてください</textarea>
+        <table id="inTable2"></table>
+      </div>
+    </div>
+
+    <div id="formArea">
+      <div>
+        <!-- <button id="formBtn1"><img src="./formOn1.png"></button></br>
+        <button id="formBtn2"><img src="./formOff2.png"></button></br>
+        <button id="formBtn3"><img src="./formOff3.png"></button></br> -->
+        <button id="formBtn1"></button></br>
+        <button id="formBtn2"></button></br>
+        <button id="formBtn3"></button></br>
+      </div>
+    </div>
+
+    <div id="output">
+      <div>
+        <p>変換結果</p>
+        <textarea id="outputArea"></textarea>
+        <button id="copyBtn">変換結果をコピー</button>
+      </div>
+      <table id="outTable"></table>
+    </div>
+
+  </div>
+
+
+  
+
+  <a href="./index.html">プレゼンテーションのトップへ戻る</a>
+  <script type="text/javascript" src="exelForm.js"></script>
+  <link rel="stylesheet" type="text/css" href="exelForm.css"/> 
+</body>
+
+</html>

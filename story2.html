@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FND-24課題プレゼン　Yuji Miyazawa</title>
+</head>
+<body>
+    <div>
+        <h1>【製作に着手する前にイメージを作成】</h1>
+        <h2> &nbsp;Exel行挿入ツール（イメージ）</h2>
+        <img src="./draftImage.png">
+    </div>
+    <br>
+    <div>
+        <h2>各動作に必要な機能を考える</h2>
+        <p>(ユーザー動作)テキストエリアへの入力</p>
+        <p>入力イベント検知</p>
+        <img src="./arrow.png">
+        <ul style="background-color: rgb(189, 255, 255); width:fit-content">
+            <li>テキストエリアの入力内容をJavaScriptで読込み(inText1,2)</li>
+            <li>inTextの行替えを判定して配列inArr1,2に格納</li>
+            <li>inArrをExel風に描画するhtml要素を作成</li>
+            <li>Webページ上でユーザーが入力内容を視覚的に確認できる </li>
+            <li>inputArr1,2を並び替えてoutArrに出力する</li>
+            <li>outArrをExel風に描画するhtml要素を作成</li>
+        </ul>
+        <br>
+
+        <p>(ユーザー動作)コピーボタンを押す</p>
+        <p>クリックイベント検知</p>
+        <img src="./arrow.png">
+        <ul style="background-color: rgb(189, 255, 255); width:fit-content">
+            <li>Exelに貼付けた時にイメージ通りの形になる様にoutArrを成形</li>
+            <li>クリップボードに保存</li>
+        </ul>
+        <br>
+
+        <p>(ユーザー動作)変換パターン切替ボタンを押す</p>
+        <p>クリックイベント検知</p>
+        <img src="./arrow.png">
+        <div style="background-color: rgb(189, 255, 255); width:fit-content">
+            <li>並び替える関数を変更する</li>
+            <li>変換ボタンの画像を変える</li>
+        </div>
+    </div>
+    <br>
+
+    <h2> そうしてできた<a href="./exelForm.html">変換Webツールがこちら</a>です！</h2>
+
+</body>
+</html>

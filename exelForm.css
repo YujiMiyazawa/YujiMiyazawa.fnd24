@@ -1,0 +1,80 @@
+h1 {
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+#inputArea1 {
+    width: 100px;
+    height: 50px;
+}
+#inputArea2 {
+    width: 100px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+}
+
+#input {
+    display: flex;
+}
+
+#input2 {
+    margin-left: 30px;
+}
+
+#formArea {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#formArea button{
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    border: transparent;
+    background-size: 100% 100%;
+}
+
+#formArea button img{
+    width: 200px;
+}
+
+#formBtn1 {
+    background-image: url(./formOn1.png);
+}
+
+#formBtn1.off {
+    background-image: url(./formOff1.png);
+}
+
+#formBtn2 {
+    background-image: url(./formOn2.png);
+}
+
+#formBtn2.off {
+    background-image: url(./formOff2.png);
+}
+
+#formBtn3 {
+    background-image: url(./formOn3.png);
+}
+
+#formBtn3.off {
+    background-image: url(./formOff3.png);
+}
+
+
+
+
+
+
+#outTable td,#outTable tr{
+    /* width: 100px; */
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 1px solid gray;
+}

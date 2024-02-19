@@ -1,0 +1,92 @@
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    height: 280px;
+    width: 125px;
+    position: relative;
+    object-fit: contain;
+}
+
+.image {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background-size: contain;
+    animation: image-switch-animation 8s infinite;
+}
+  
+.src1 {
+    background-image: url("a1.png");
+    width: 63px;
+}
+.src2 {
+    background-image: url("a2.png");
+    width: 63px;
+}
+.src3 {
+    background-image: url("a3.png");
+    width: 63px;
+}
+.src4 {
+    background-image: url("a4.png");
+    width: 63px;
+}
+.src5 {
+    background-image: url("b1.png");
+    width: 125px;
+}
+.src6 {
+    background-image: url("b2.png");
+    width: 125px;
+}
+.src7 {
+    background-image: url("b3.png");
+    width: 125px;
+}
+.src8 {
+    background-image: url("b4.png");
+    width: 125px;
+}
+
+
+
+
+
+
+
+.image:nth-of-type(1) {
+    animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+    animation-delay: 1s;
+}
+.image:nth-of-type(3) {
+    animation-delay: 2s;
+}
+.image:nth-of-type(4) {
+    animation-delay: 3s;
+}
+.image:nth-of-type(5) {
+    animation-delay: 4s;
+}
+.image:nth-of-type(6) {
+    animation-delay: 5s;
+}
+.image:nth-of-type(7) {
+    animation-delay: 6s;
+}
+.image:nth-of-type(8) {
+    animation-delay: 7s;
+}
+
+
+
+@keyframes image-switch-animation {
+    0%{ opacity: 0;}
+    5%{ opacity: 1;}
+    25%{ opacity: 1;}
+    30%{ opacity: 0;}
+    100%{ opacity: 0;}
+}
