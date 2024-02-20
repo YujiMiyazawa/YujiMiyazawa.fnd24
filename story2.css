@@ -1,0 +1,17 @@
+#draftImageS {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: 300px;
+}
+
+.scroll {
+    display: flex;
+}
+
+ul {
+    background-color: rgb(189, 255, 255);
+    width:fit-content;
+}
